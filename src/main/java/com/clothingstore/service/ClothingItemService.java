@@ -2,10 +2,10 @@ package com.clothingstore.service;
 
 import com.clothingstore.dao.ClothingItemDao;
 import com.clothingstore.model.ClothingItem;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
+import org.springframework.stereotype.Service;
+
 
 @Service
 public class ClothingItemService {
@@ -21,5 +21,9 @@ public class ClothingItemService {
 
     public Optional<ClothingItem> getItemById(Long id) {
         return clothingItemDao.getItemById(id);
+    }
+
+    public List<ClothingItem> getItemsByName(String name) {
+        return clothingItemDao.getItemsByName(name);
     }
 }
