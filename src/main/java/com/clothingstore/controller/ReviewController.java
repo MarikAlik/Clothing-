@@ -31,6 +31,13 @@ public class ReviewController {
         return new ResponseEntity<>(savedReview, HttpStatus.CREATED);
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<Review> getReviewById(@PathVariable Long id) {
+        Review review = reviewService.getReviewById(id)
+                .orElseThrow(() -> new RuntimeException("Review not found"));
+        return ResponseEntity.ok(review);
+    } // добавил
+
     @GetMapping("/by-item/{clothingItemId}")
     public ResponseEntity<List<Review>> getReviewsByClothingItemId(
             @PathVariable Long clothingItemId) {
