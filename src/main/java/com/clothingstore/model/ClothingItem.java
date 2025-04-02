@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 import java.util.List;
 
 @Entity
-@Table(name = "clothing_item")
+@Table(name = "product")
 public class ClothingItem {
 
     @Id
