@@ -36,7 +36,7 @@ public class ReviewController {
         Review review = reviewService.getReviewById(id)
                 .orElseThrow(() -> new RuntimeException("Review not found"));
         return ResponseEntity.ok(review);
-    } // добавил
+    }
 
     @GetMapping("/by-item/{clothingItemId}")
     public ResponseEntity<List<Review>> getReviewsByClothingItemId(
