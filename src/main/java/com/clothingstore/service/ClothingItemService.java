@@ -64,19 +64,18 @@ public class ClothingItemService {
 
     public List<ClothingItem> getItemsByNameAndRating(String name, int rating) {
         String cacheKey = "items_by_name_and_rating_" + name.toLowerCase() + "_" + rating;
+
         if (cacheService.contains(cacheKey)) {
-            System.out.println("Fetching 'items_by_name_and_rating_" + name.toLowerCase()
-                    + "_" + rating + "' from cache...");
+            System.out.println("Fetching '" + cacheKey + "' from cache...");
             return (List<ClothingItem>) cacheService.get(cacheKey);
         }
-
         List<ClothingItem> items = clothingItemRepository
-                .findAllByNameAndReviewRatingGreaterThanEqual(name, rating);
+                .findAllByNameAndReviewRatingGreaterThanEqualNative(name, rating);
         cacheService.put(cacheKey, items);
-        System.out.println("Fetching 'items_by_name_and_rating_" + name.toLowerCase()
-                + "_" + rating + "' from database and storing in cache...");
+        System.out.println("Fetching '" + cacheKey + "' from database and storing in cache...");
         return items;
     }
+
 
     public List<ClothingItem> getItemsByRating(int rating) {
         String cacheKey = "items_by_rating_" + rating;

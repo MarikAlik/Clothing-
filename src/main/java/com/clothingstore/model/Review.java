@@ -8,9 +8,11 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.*;
 
 @Entity
-
+@Table(name = "review")
 public class Review {
 
     @Id
@@ -22,9 +24,20 @@ public class Review {
     @JsonBackReference
     private ClothingItem clothingItem;
 
+    @NotBlank(message = "Имя пользователя обязательно")
+    @Size(min = 2, max = 50, message = "Имя пользователя должно содержать от 2 до 50 символов")
+    @Pattern(regexp = "^[a-zA-Z0-9_]+$",
+            message = "Имя пользователя может содержать только буквы, цифры и подчеркивания")
     private String username;
+
+    @NotBlank(message = "Комментарий не может быть пустым")
+    @Size(min = 10, max = 1000, message = "Комментарий должен содержать от 10 до 1000 символов")
     private String comment;
-    private int rating;
+
+    @NotNull(message = "Рейтинг обязателен")
+    @Min(value = 1, message = "Минимальный рейтинг - 1")
+    @Max(value = 5, message = "Максимальный рейтинг - 5")
+    private Integer rating;
 
     public Review() {}
 

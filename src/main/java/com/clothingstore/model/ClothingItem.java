@@ -9,7 +9,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.*;
 import java.util.List;
+
 
 @Entity
 @Table(name = "product")
@@ -19,9 +21,19 @@ public class ClothingItem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank(message = "Название товара не может быть пустым")
+    @Size(min = 2, max = 100, message = "Название должно содержать от 2 до 100 символов")
     private String name;
+
+    @NotBlank(message = "Размер не может быть пустым")
+    @Pattern(regexp = "^(XS|S|M|L|XL|XXL|[0-9]{2})$",
+            message = "Допустимые размеры: XS, S, M, L, XL, XXL или числовые значения")
     private String size;
-    private double price;
+
+    @NotNull(message = "Цена не может быть пустой")
+    @DecimalMin(value = "0.01", message = "Цена должна быть больше 0")
+    @DecimalMax(value = "100000", message = "Цена не может превышать 100 000")
+    private Double price;
 
     @OneToMany(mappedBy = "clothingItem", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JsonManagedReference
