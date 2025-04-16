@@ -31,7 +31,7 @@ public class Review {
 
     @NotBlank(message = "Имя пользователя обязательно")
     @Size(min = 2, max = 50, message = "Имя пользователя должно содержать от 2 до 50 символов")
-    @Pattern(regexp = "^[a-zA-Z0-9_]+$",
+    @Pattern(regexp = "^\\w+$",
             message = "Имя пользователя может содержать только буквы, цифры и подчеркивания")
     private String username;
 

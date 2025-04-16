@@ -5,10 +5,19 @@ import com.clothingstore.model.ClothingItem;
 import com.clothingstore.repository.ClothingItemRepository;
 import java.util.List;
 import java.util.Optional;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ClothingItemService {
+
+    private static final Logger logger = LoggerFactory.getLogger(ClothingItemService.class);
+
+    private static final String CACHE_ALL_ITEMS = "all_items";
+    private static final String FETCHING_FROM_CACHE = "Fetching '{}' from cache...";
+    private static final String FETCHING_FROM_DB = "Fetching '{}' from database"
+            + " and storing in cache...";
 
     private final ClothingItemRepository clothingItemRepository;
     private final CacheService cacheService;
@@ -20,30 +29,28 @@ public class ClothingItemService {
     }
 
     public List<ClothingItem> getAllItems() {
-        String cacheKey = "all_items";
-        if (cacheService.contains(cacheKey)) {
-            System.out.println("Fetching 'all_items' from cache...");
-            return (List<ClothingItem>) cacheService.get(cacheKey);
+        if (cacheService.contains(CACHE_ALL_ITEMS)) {
+            logger.info(FETCHING_FROM_CACHE, CACHE_ALL_ITEMS);
+            return (List<ClothingItem>) cacheService.get(CACHE_ALL_ITEMS);
         }
 
-
         List<ClothingItem> items = clothingItemRepository.findAll();
-        cacheService.put(cacheKey, items);
-        System.out.println("Fetching 'all_items' from database and storing in cache...");
+        cacheService.put(CACHE_ALL_ITEMS, items);
+        logger.info(FETCHING_FROM_DB, CACHE_ALL_ITEMS);
         return items;
     }
 
     public Optional<ClothingItem> getItemById(Long id) {
         String cacheKey = "item_" + id;
         if (cacheService.contains(cacheKey)) {
-            System.out.println("Fetching 'item_" + id + "' from cache...");
+            logger.info(FETCHING_FROM_CACHE, cacheKey);
             return Optional.of((ClothingItem) cacheService.get(cacheKey));
         }
 
         Optional<ClothingItem> item = clothingItemRepository.findById(id);
         item.ifPresent(value -> {
             cacheService.put(cacheKey, value);
-            System.out.println("Fetching 'item_" + id + "' from database and storing in cache...");
+            logger.info(FETCHING_FROM_DB, cacheKey);
         });
         return item;
     }
@@ -51,14 +58,13 @@ public class ClothingItemService {
     public List<ClothingItem> getItemsByName(String name) {
         String cacheKey = "items_by_name_" + name.toLowerCase();
         if (cacheService.contains(cacheKey)) {
-            System.out.println("Fetching 'items_by_name_" + name.toLowerCase() + "' from cache...");
+            logger.info(FETCHING_FROM_CACHE, cacheKey);
             return (List<ClothingItem>) cacheService.get(cacheKey);
         }
 
         List<ClothingItem> items = clothingItemRepository.findByNameContainingIgnoreCase(name);
         cacheService.put(cacheKey, items);
-        System.out.println("Fetching 'items_by_name_" + name.toLowerCase()
-                + "' from database and storing in cache...");
+        logger.info(FETCHING_FROM_DB, cacheKey);
         return items;
     }
 
@@ -66,29 +72,28 @@ public class ClothingItemService {
         String cacheKey = "items_by_name_and_rating_" + name.toLowerCase() + "_" + rating;
 
         if (cacheService.contains(cacheKey)) {
-            System.out.println("Fetching '" + cacheKey + "' from cache...");
+            logger.info(FETCHING_FROM_CACHE, cacheKey);
             return (List<ClothingItem>) cacheService.get(cacheKey);
         }
+
         List<ClothingItem> items = clothingItemRepository
                 .findAllByNameAndReviewRatingGreaterThanEqualNative(name, rating);
         cacheService.put(cacheKey, items);
-        System.out.println("Fetching '" + cacheKey + "' from database and storing in cache...");
+        logger.info(FETCHING_FROM_DB, cacheKey);
         return items;
     }
-
 
     public List<ClothingItem> getItemsByRating(int rating) {
         String cacheKey = "items_by_rating_" + rating;
         if (cacheService.contains(cacheKey)) {
-            System.out.println("Fetching 'items_by_rating_" + rating + "' from cache...");
+            logger.info(FETCHING_FROM_CACHE, cacheKey);
             return (List<ClothingItem>) cacheService.get(cacheKey);
         }
 
         List<ClothingItem> items = clothingItemRepository
                 .findAllByReviewRatingGreaterThanEqual(rating);
         cacheService.put(cacheKey, items);
-        System.out.println("Fetching 'items_by_rating_" + rating
-                + "' from database and storing in cache...");
+        logger.info(FETCHING_FROM_DB, cacheKey);
         return items;
     }
 

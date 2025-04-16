@@ -30,6 +30,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Tag(name = "Clothing Items", description = "Операции с товарами одежды")
 public class ClothingItemController {
 
+    private static final String ITEM_NOT_FOUND = "Item not found with id: ";
+
     private final ClothingItemService clothingItemService;
 
     public ClothingItemController(ClothingItemService clothingItemService) {
@@ -51,9 +53,10 @@ public class ClothingItemController {
     @ApiResponse(responseCode = "404", description = "Товар не найден")
     public ResponseEntity<ClothingItem> getItemById(
             @Parameter(description = "ID товара") @PathVariable Long id) {
-        ClothingItem item = clothingItemService.getItemById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Item not found with id: " + id));
-        return ResponseEntity.ok(item);
+        return ResponseEntity.ok(
+                clothingItemService.getItemById(id)
+                        .orElseThrow(() -> new ResourceNotFoundException(ITEM_NOT_FOUND + id))
+        );
     }
 
     @GetMapping("/search")
@@ -115,7 +118,7 @@ public class ClothingItemController {
             @Valid @RequestBody ClothingItem clothingItem) {
 
         clothingItemService.getItemById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Item not found with id: " + id));
+                .orElseThrow(() -> new ResourceNotFoundException(ITEM_NOT_FOUND + id));
 
         clothingItem.setId(id);
         ClothingItem updatedItem = clothingItemService.saveItem(clothingItem);
@@ -128,8 +131,9 @@ public class ClothingItemController {
     @ApiResponse(responseCode = "404", description = "Товар не найден")
     public ResponseEntity<Void> deleteItem(
             @Parameter(description = "ID товара") @PathVariable Long id) {
-        ClothingItem item = clothingItemService.getItemById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Item not found with id: " + id));
+
+        clothingItemService.getItemById(id)
+                .orElseThrow(() -> new ResourceNotFoundException(ITEM_NOT_FOUND + id));
 
         clothingItemService.deleteItem(id);
         return ResponseEntity.noContent().build();

@@ -24,6 +24,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Tag(name = "Reviews", description = "Управление отзывами на товары")
 public class ReviewController {
 
+    private static final String REVIEW_NOT_FOUND = "Review not found with id: ";
+
     private final ReviewService reviewService;
 
     public ReviewController(ReviewService reviewService) {
@@ -50,10 +52,10 @@ public class ReviewController {
     @ApiResponse(responseCode = "200", description = "Отзыв найден")
     @ApiResponse(responseCode = "404", description = "Отзыв не найден")
     public ResponseEntity<Review> getReviewById(@PathVariable Long id) {
-        Review review = reviewService.getReviewById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Review not found with id: "
-                        + id));
-        return ResponseEntity.ok(review);
+        return ResponseEntity.ok(
+                reviewService.getReviewById(id)
+                        .orElseThrow(() -> new ResourceNotFoundException(REVIEW_NOT_FOUND + id))
+        );
     }
 
     @GetMapping("/by-item/{clothingItemId}")
@@ -61,8 +63,7 @@ public class ReviewController {
             summary = "Получить отзывы по товару",
             description = "Возвращает список всех отзывов, относящихся к определенному товару"
     )
-    @ApiResponse(responseCode = "200",
-            description = "Отзывы успешно получены")
+    @ApiResponse(responseCode = "200", description = "Отзывы успешно получены")
     public ResponseEntity<List<Review>> getReviewsByClothingItemId(
             @PathVariable Long clothingItemId) {
         List<Review> reviews = reviewService.getReviewsByClothingItemId(clothingItemId);
@@ -75,15 +76,12 @@ public class ReviewController {
             description = "Обновляет существующий отзыв по ID. "
                     + "Требуется имя пользователя, комментарий и рейтинг."
     )
-    @ApiResponse(responseCode = "200",
-            description = "Отзыв успешно обновлён")
-    @ApiResponse(responseCode = "404",
-            description = "Отзыв не найден")
+    @ApiResponse(responseCode = "200", description = "Отзыв успешно обновлён")
+    @ApiResponse(responseCode = "404", description = "Отзыв не найден")
     public ResponseEntity<Review> updateReview(@PathVariable Long id,
                                                @Valid @RequestBody Review reviewDetails) {
         Review existingReview = reviewService.getReviewById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Review not found with id: "
-                        + id));
+                .orElseThrow(() -> new ResourceNotFoundException(REVIEW_NOT_FOUND + id));
 
         existingReview.setUsername(reviewDetails.getUsername());
         existingReview.setComment(reviewDetails.getComment());
@@ -101,9 +99,8 @@ public class ReviewController {
     @ApiResponse(responseCode = "204", description = "Отзыв успешно удалён")
     @ApiResponse(responseCode = "404", description = "Отзыв не найден")
     public ResponseEntity<Void> deleteReview(@PathVariable Long id) {
-        Review review = reviewService.getReviewById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Review not found with id: "
-                        + id));
+        reviewService.getReviewById(id)
+                .orElseThrow(() -> new ResourceNotFoundException(REVIEW_NOT_FOUND + id));
         reviewService.deleteReview(id);
         return ResponseEntity.noContent().build();
     }

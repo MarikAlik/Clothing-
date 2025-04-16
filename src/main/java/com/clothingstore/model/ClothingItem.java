@@ -31,7 +31,7 @@ public class ClothingItem {
     private String name;
 
     @NotBlank(message = "Размер не может быть пустым")
-    @Pattern(regexp = "^(XS|S|M|L|XL|XXL|[0-9]{2})$",
+    @Pattern(regexp = "^(XS|S|M|L|XL|XXL|\\d{2})$",
             message = "Допустимые размеры: XS, S, M, L, XL, XXL или числовые значения")
     private String size;
 
