@@ -1,21 +1,21 @@
-2025-04-16T19:52:09.988+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 10064 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T19:52:09.996+03:00 DEBUG 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T19:52:09.997+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T19:52:10.850+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T19:52:10.920+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-04-16T19:52:12.223+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T19:52:12.326+03:00  INFO 10064 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T19:52:12.327+03:00  INFO 10064 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2218 ms
-2025-04-16T19:52:12.604+03:00  INFO 10064 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T19:52:12.694+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T19:52:12.746+03:00  INFO 10064 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T19:52:13.160+03:00  INFO 10064 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T19:52:13.200+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T19:52:14.271+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dd6a4c8
-2025-04-16T19:52:14.273+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T19:52:14.707+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T12:15:22.835+03:00  INFO 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 14464 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T12:15:22.841+03:00 DEBUG 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T12:15:22.842+03:00  INFO 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T12:15:23.714+03:00  INFO 14464 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T12:15:23.788+03:00  INFO 14464 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2025-04-20T12:15:25.095+03:00  INFO 14464 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T12:15:25.113+03:00  INFO 14464 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T12:15:25.114+03:00  INFO 14464 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T12:15:25.192+03:00  INFO 14464 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T12:15:25.193+03:00  INFO 14464 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2253 ms
+2025-04-20T12:15:25.483+03:00  INFO 14464 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T12:15:25.569+03:00  INFO 14464 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T12:15:25.619+03:00  INFO 14464 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T12:15:26.047+03:00  INFO 14464 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T12:15:26.087+03:00  INFO 14464 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T12:15:28.945+03:00  INFO 14464 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47be41c6
+2025-04-20T12:15:28.948+03:00  INFO 14464 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T12:15:29.411+03:00  INFO 14464 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -23,39 +23,38 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-16T19:52:16.150+03:00  INFO 10064 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T19:52:16.741+03:00  INFO 10064 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:17.291+03:00  INFO 10064 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T19:52:18.327+03:00  WARN 10064 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T19:52:19.231+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T19:52:19.244+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.148 seconds (process running for 11.319)
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T19:52:35.275+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T19:52:36.533+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 569 ms
-2025-04-16T19:52:51.417+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-16T19:52:51.427+03:00  INFO 10064 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-16T19:52:51.433+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:51.437+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-16T19:52:51.446+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-16T20:20:12.087+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 15612 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T20:20:12.090+03:00 DEBUG 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T20:20:12.091+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T20:20:12.930+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T20:20:13.000+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2025-04-16T20:20:14.293+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T20:20:14.311+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T20:20:14.312+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T20:20:14.390+03:00  INFO 15612 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T20:20:14.391+03:00  INFO 15612 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2199 ms
-2025-04-16T20:20:14.657+03:00  INFO 15612 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T20:20:14.754+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T20:20:14.806+03:00  INFO 15612 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T20:20:15.221+03:00  INFO 15612 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T20:20:15.265+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T20:20:18.010+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ba97962
-2025-04-16T20:20:18.012+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T20:20:18.457+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T12:15:30.895+03:00  INFO 14464 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T12:15:31.546+03:00  INFO 14464 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:15:32.264+03:00  INFO 14464 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T12:15:33.564+03:00  WARN 14464 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T12:15:34.884+03:00  INFO 14464 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T12:15:34.893+03:00  INFO 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 12.974 seconds (process running for 14.183)
+2025-04-20T12:16:47.479+03:00  INFO 14464 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T12:16:47.481+03:00  INFO 14464 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T12:16:47.483+03:00  INFO 14464 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T12:17:28.992+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T12:17:29.002+03:00  INFO 14464 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T12:17:29.007+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:17:29.011+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T12:17:29.015+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T12:23:21.514+03:00  INFO 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 9484 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T12:23:21.516+03:00 DEBUG 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T12:23:21.517+03:00  INFO 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T12:23:22.295+03:00  INFO 9484 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T12:23:22.360+03:00  INFO 9484 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-04-20T12:23:23.655+03:00  INFO 9484 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T12:23:23.673+03:00  INFO 9484 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T12:23:23.675+03:00  INFO 9484 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T12:23:23.752+03:00  INFO 9484 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T12:23:23.752+03:00  INFO 9484 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2153 ms
+2025-04-20T12:23:24.007+03:00  INFO 9484 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T12:23:24.096+03:00  INFO 9484 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T12:23:24.150+03:00  INFO 9484 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T12:23:24.564+03:00  INFO 9484 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T12:23:24.612+03:00  INFO 9484 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T12:23:26.954+03:00  INFO 9484 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42d174ad
+2025-04-20T12:23:26.956+03:00  INFO 9484 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T12:23:27.102+03:00  INFO 9484 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -63,112 +62,38 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-16T20:20:19.860+03:00  INFO 15612 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T20:20:20.367+03:00  INFO 15612 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T20:20:20.876+03:00  INFO 15612 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T20:20:21.906+03:00  WARN 15612 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T20:20:22.800+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T20:20:22.808+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.414 seconds (process running for 12.471)
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T20:20:40.573+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T20:20:41.846+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 653 ms
-2025-04-16T20:21:12.428+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:12.456+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-13,[]>
-2025-04-16T20:21:23.027+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:23.042+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-14,[]>
-2025-04-16T20:21:27.585+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:27.601+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <200 OK OK,2025-04-16T19:52:09.988+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 10064 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T19:52:09.996+03:00 DEBUG 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T19:52:09.997+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T19:52:10.850+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T19:52:10.920+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-04-16T19:52:12.223+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T19:52:12.326+03:00  INFO 10064 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T19:52:12.327+03:00  INFO 10064 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2218 ms
-2025-04-16T19:52:12.604+03:00  INFO 10064 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T19:52:12.694+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T19:52:12.746+03:00  INFO 10064 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T19:52:13.160+03:00  INFO 10064 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T19:52:13.200+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T19:52:14.271+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dd6a4c8
-2025-04-16T19:52:14.273+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T19:52:14.707+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-2025-04-16T19:52:16.150+03:00  INFO 10064 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T19:52:16.741+03:00  INFO 10064 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:17.291+03:00  INFO 10064 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T19:52:18.327+03:00  WARN 10064 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T19:52:19.231+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T19:52:19.244+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.148 seconds (process running for 11.319)
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T19:52:35.275+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T19:52:36.533+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 569 ms
-2025-04-16T19:52:51.417+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-16T19:52:51.427+03:00  INFO 10064 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-16T19:52:51.433+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:51.437+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-16T19:52:51.446+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-16T20:20:12.087+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 15612 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T20:20:12.090+03:00 DEBUG 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T20:20:12.091+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T20:20:12.930+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T20:20:13.000+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2025-04-16T20:20:14.293+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T20:20:14.311+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T20:20:14.312+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T20:20:14.390+03:00  INFO 15612 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T20:20:14.391+03:00  INFO 15612 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2199 ms
-2025-04-16T20:20:14.657+03:00  INFO 15612 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T20:20:14.754+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T20:20:14.806+03:00  INFO 15612 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T20:20:15.221+03:00  INFO 15612 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T20:20:15.265+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T20:20:18.010+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ba97962
-2025-04-16T20:20:18.012+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T20:20:18.457+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-2025-04-16T20:20:19.860+03:00  INFO 15612 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T20:20:20.367+03:00  INFO 15612 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T20:20:20.876+03:00  INFO 15612 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T20:20:21.906+03:00  WARN 15612 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T20:20:22.800+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T20:20:22.808+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.414 seconds (process running for 12.471)
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T20:20:40.573+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T20:20:41.846+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 653 ms
-2025-04-16T20:21:12.428+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:12.456+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-13,[]>
-2025-04-16T20:21:23.027+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:23.042+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-14,[]>
-2025-04-16T20:21:27.585+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..),[Content-Type:"text/plain"]>
-2025-04-16T20:21:36.776+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: ReviewController.getReviewById(..)
-2025-04-16T20:21:37.349+03:00 ERROR 15612 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Ошибка в методе getReviewById: Review not found with id: 9999
-2025-04-16T20:22:22.638+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-16T20:22:22.646+03:00  INFO 15612 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-16T20:22:22.651+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T20:22:22.654+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-16T20:22:22.662+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-16T21:17:23.575+03:00  INFO 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 9576 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T21:17:23.578+03:00 DEBUG 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T21:17:23.579+03:00  INFO 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T21:17:24.441+03:00  INFO 9576 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T21:17:24.521+03:00  INFO 9576 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
-2025-04-16T21:17:25.959+03:00  INFO 9576 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T21:17:25.979+03:00  INFO 9576 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T21:17:25.980+03:00  INFO 9576 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T21:17:26.072+03:00  INFO 9576 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T21:17:26.072+03:00  INFO 9576 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2394 ms
-2025-04-16T21:17:26.370+03:00  INFO 9576 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T21:17:26.471+03:00  INFO 9576 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T21:17:26.528+03:00  INFO 9576 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T21:17:26.985+03:00  INFO 9576 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T21:17:27.029+03:00  INFO 9576 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T21:17:29.791+03:00  INFO 9576 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b3546a3
-2025-04-16T21:17:29.794+03:00  INFO 9576 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T21:17:30.266+03:00  INFO 9576 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T12:23:28.534+03:00  INFO 9484 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T12:23:28.733+03:00  INFO 9484 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:23:29.217+03:00  INFO 9484 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T12:23:30.190+03:00  WARN 9484 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T12:23:31.041+03:00  INFO 9484 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T12:23:31.050+03:00  INFO 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.169 seconds (process running for 11.19)
+2025-04-20T12:23:39.253+03:00  INFO 9484 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T12:23:39.253+03:00  INFO 9484 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T12:23:39.255+03:00  INFO 9484 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T12:27:12.859+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T12:27:12.868+03:00  INFO 9484 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T12:27:12.873+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:27:12.876+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T12:27:12.882+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T12:32:13.075+03:00  INFO 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 2020 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T12:32:13.078+03:00 DEBUG 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T12:32:13.080+03:00  INFO 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T12:32:13.865+03:00  INFO 2020 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T12:32:13.930+03:00  INFO 2020 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-04-20T12:32:15.089+03:00  INFO 2020 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T12:32:15.105+03:00  INFO 2020 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T12:32:15.107+03:00  INFO 2020 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T12:32:15.184+03:00  INFO 2020 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T12:32:15.184+03:00  INFO 2020 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2015 ms
+2025-04-20T12:32:15.431+03:00  INFO 2020 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T12:32:15.497+03:00  INFO 2020 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T12:32:15.538+03:00  INFO 2020 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T12:32:15.914+03:00  INFO 2020 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T12:32:15.959+03:00  INFO 2020 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T12:32:16.187+03:00  INFO 2020 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ec0229c
+2025-04-20T12:32:16.190+03:00  INFO 2020 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T12:32:16.291+03:00  INFO 2020 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -176,193 +101,301 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-16T21:17:31.654+03:00  INFO 9576 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T21:17:32.160+03:00  INFO 9576 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T21:17:32.763+03:00  INFO 9576 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T21:17:33.763+03:00  WARN 9576 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T21:17:34.676+03:00  INFO 9576 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T21:17:34.685+03:00  INFO 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.927 seconds (process running for 13.1)
-2025-04-16T21:18:00.847+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T21:18:00.848+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T21:18:00.851+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-16T21:18:00.914+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T21:18:00.938+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <200 OK OK,2025-04-16T19:52:09.988+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 10064 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T19:52:09.996+03:00 DEBUG 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T19:52:09.997+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T19:52:10.850+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T19:52:10.920+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-04-16T19:52:12.223+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T19:52:12.326+03:00  INFO 10064 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T19:52:12.327+03:00  INFO 10064 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2218 ms
-2025-04-16T19:52:12.604+03:00  INFO 10064 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T19:52:12.694+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T19:52:12.746+03:00  INFO 10064 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T19:52:13.160+03:00  INFO 10064 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T19:52:13.200+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T19:52:14.271+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dd6a4c8
-2025-04-16T19:52:14.273+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T19:52:14.707+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-2025-04-16T19:52:16.150+03:00  INFO 10064 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T19:52:16.741+03:00  INFO 10064 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:17.291+03:00  INFO 10064 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T19:52:18.327+03:00  WARN 10064 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T19:52:19.231+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T19:52:19.244+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.148 seconds (process running for 11.319)
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T19:52:35.275+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T19:52:36.533+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 569 ms
-2025-04-16T19:52:51.417+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-16T19:52:51.427+03:00  INFO 10064 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-16T19:52:51.433+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:51.437+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-16T19:52:51.446+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-16T20:20:12.087+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 15612 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T20:20:12.090+03:00 DEBUG 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T20:20:12.091+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T20:20:12.930+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T20:20:13.000+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2025-04-16T20:20:14.293+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T20:20:14.311+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T20:20:14.312+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T20:20:14.390+03:00  INFO 15612 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T20:20:14.391+03:00  INFO 15612 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2199 ms
-2025-04-16T20:20:14.657+03:00  INFO 15612 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T20:20:14.754+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T20:20:14.806+03:00  INFO 15612 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T20:20:15.221+03:00  INFO 15612 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T20:20:15.265+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T20:20:18.010+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ba97962
-2025-04-16T20:20:18.012+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T20:20:18.457+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-2025-04-16T20:20:19.860+03:00  INFO 15612 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T20:20:20.367+03:00  INFO 15612 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T20:20:20.876+03:00  INFO 15612 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T20:20:21.906+03:00  WARN 15612 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T20:20:22.800+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T20:20:22.808+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.414 seconds (process running for 12.471)
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T20:20:40.573+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T20:20:41.846+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 653 ms
-2025-04-16T20:21:12.428+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:12.456+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-13,[]>
-2025-04-16T20:21:23.027+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:23.042+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-14,[]>
-2025-04-16T20:21:27.585+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:27.601+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <200 OK OK,2025-04-16T19:52:09.988+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 10064 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T19:52:09.996+03:00 DEBUG 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T19:52:09.997+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T19:52:10.850+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T19:52:10.920+03:00  INFO 10064 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-04-16T19:52:12.223+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T19:52:12.243+03:00  INFO 10064 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T19:52:12.326+03:00  INFO 10064 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T19:52:12.327+03:00  INFO 10064 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2218 ms
-2025-04-16T19:52:12.604+03:00  INFO 10064 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T19:52:12.694+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T19:52:12.746+03:00  INFO 10064 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T19:52:13.160+03:00  INFO 10064 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T19:52:13.200+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T19:52:14.271+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dd6a4c8
-2025-04-16T19:52:14.273+03:00  INFO 10064 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T19:52:14.707+03:00  INFO 10064 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-2025-04-16T19:52:16.150+03:00  INFO 10064 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T19:52:16.741+03:00  INFO 10064 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:17.291+03:00  INFO 10064 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T19:52:18.327+03:00  WARN 10064 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T19:52:19.231+03:00  INFO 10064 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T19:52:19.244+03:00  INFO 10064 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.148 seconds (process running for 11.319)
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T19:52:35.273+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T19:52:35.275+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T19:52:36.533+03:00  INFO 10064 --- [clothingstore] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 569 ms
-2025-04-16T19:52:51.417+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-16T19:52:51.427+03:00  INFO 10064 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-16T19:52:51.433+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T19:52:51.437+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-16T19:52:51.446+03:00  INFO 10064 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-16T20:20:12.087+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 15612 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T20:20:12.090+03:00 DEBUG 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T20:20:12.091+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T20:20:12.930+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T20:20:13.000+03:00  INFO 15612 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2025-04-16T20:20:14.293+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T20:20:14.311+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T20:20:14.312+03:00  INFO 15612 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T20:20:14.390+03:00  INFO 15612 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T20:20:14.391+03:00  INFO 15612 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2199 ms
-2025-04-16T20:20:14.657+03:00  INFO 15612 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T20:20:14.754+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T20:20:14.806+03:00  INFO 15612 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T20:20:15.221+03:00  INFO 15612 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T20:20:15.265+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T20:20:18.010+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ba97962
-2025-04-16T20:20:18.012+03:00  INFO 15612 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T20:20:18.457+03:00  INFO 15612 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-2025-04-16T20:20:19.860+03:00  INFO 15612 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T20:20:20.367+03:00  INFO 15612 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T20:20:20.876+03:00  INFO 15612 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T20:20:21.906+03:00  WARN 15612 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T20:20:22.800+03:00  INFO 15612 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T20:20:22.808+03:00  INFO 15612 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.414 seconds (process running for 12.471)
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T20:20:40.571+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T20:20:40.573+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-16T20:20:41.846+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 653 ms
-2025-04-16T20:21:12.428+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:12.456+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-6] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-13,[]>
-2025-04-16T20:21:23.027+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
-2025-04-16T20:21:23.042+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <404 NOT_FOUND Not Found,No log entries found for date: 2025-04-14,[]>
-2025-04-16T20:21:27.585+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..),[Content-Type:"text/plain"]>
-2025-04-16T20:21:36.776+03:00  INFO 15612 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: ReviewController.getReviewById(..)
-2025-04-16T20:21:37.349+03:00 ERROR 15612 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Ошибка в методе getReviewById: Review not found with id: 9999
-2025-04-16T20:22:22.638+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-16T20:22:22.646+03:00  INFO 15612 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-16T20:22:22.651+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T20:22:22.654+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-16T20:22:22.662+03:00  INFO 15612 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-16T21:17:23.575+03:00  INFO 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 9576 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
-2025-04-16T21:17:23.578+03:00 DEBUG 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-04-16T21:17:23.579+03:00  INFO 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
-2025-04-16T21:17:24.441+03:00  INFO 9576 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-16T21:17:24.521+03:00  INFO 9576 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
-2025-04-16T21:17:25.959+03:00  INFO 9576 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-16T21:17:25.979+03:00  INFO 9576 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-16T21:17:25.980+03:00  INFO 9576 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-04-16T21:17:26.072+03:00  INFO 9576 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-16T21:17:26.072+03:00  INFO 9576 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2394 ms
-2025-04-16T21:17:26.370+03:00  INFO 9576 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-16T21:17:26.471+03:00  INFO 9576 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-04-16T21:17:26.528+03:00  INFO 9576 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-16T21:17:26.985+03:00  INFO 9576 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-16T21:17:27.029+03:00  INFO 9576 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-16T21:17:29.791+03:00  INFO 9576 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b3546a3
-2025-04-16T21:17:29.794+03:00  INFO 9576 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-16T21:17:30.266+03:00  INFO 9576 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-2025-04-16T21:17:31.654+03:00  INFO 9576 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-16T21:17:32.160+03:00  INFO 9576 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T21:17:32.763+03:00  INFO 9576 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-16T21:17:33.763+03:00  WARN 9576 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-16T21:17:34.676+03:00  INFO 9576 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-16T21:17:34.685+03:00  INFO 9576 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.927 seconds (process running for 13.1)
-2025-04-16T21:18:00.847+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-16T21:18:00.848+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-16T21:18:00.851+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-16T21:18:00.914+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-1] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..),[Content-Type:"text/plain"]>
-2025-04-16T21:18:06.882+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-3] c.clothingstore.logging.LoggingAspect    : Вызов метода: ReviewController.getReviewById(..)
-2025-04-16T21:18:07.212+03:00 ERROR 9576 --- [clothingstore] [http-nio-8080-exec-3] c.clothingstore.logging.LoggingAspect    : Ошибка в методе getReviewById: Review not found with id: 9999
-2025-04-16T21:18:51.834+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.getItemsByRating(..)
-2025-04-16T21:18:52.335+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-8] c.c.service.ClothingItemService          : Fetching 'items_by_rating_5' from database and storing in cache...
-2025-04-16T21:18:52.336+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Метод getItemsByRating завершился успешно. Результат: <200 OK OK,[com.clothingstore.model.ClothingItem@784e1f7c],[]>
-2025-04-16T21:19:07.931+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.getItemsByRating(..)
-2025-04-16T21:19:07.931+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-9] c.c.service.ClothingItemService          : Fetching 'items_by_rating_5' from cache...
-2025-04-16T21:19:07.932+03:00  INFO 9576 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Метод getItemsByRating завершился успешно. Результат: <200 OK OK,[com.clothingstore.model.ClothingItem@784e1f7c],[]>
-2025-04-16T21:19:57.038+03:00  INFO 9576 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-16T21:19:57.048+03:00  INFO 9576 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-16T21:19:57.053+03:00  INFO 9576 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-16T21:19:57.056+03:00  INFO 9576 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-16T21:19:57.061+03:00  INFO 9576 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T12:32:17.744+03:00  INFO 2020 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T12:32:17.948+03:00  INFO 2020 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:32:18.523+03:00  INFO 2020 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T12:32:19.628+03:00  WARN 2020 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T12:32:20.595+03:00  INFO 2020 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T12:32:20.604+03:00  INFO 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 8.161 seconds (process running for 9.102)
+2025-04-20T12:33:07.610+03:00  INFO 2020 --- [clothingstore] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T12:33:07.611+03:00  INFO 2020 --- [clothingstore] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T12:33:07.613+03:00  INFO 2020 --- [clothingstore] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-20T12:40:07.397+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T12:40:07.406+03:00  INFO 2020 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T12:40:07.411+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:40:07.413+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T12:40:07.416+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T13:02:29.406+03:00  INFO 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 6864 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T13:02:29.409+03:00 DEBUG 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T13:02:29.410+03:00  INFO 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T13:02:30.349+03:00  INFO 6864 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T13:02:30.423+03:00  INFO 6864 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2025-04-20T13:02:31.770+03:00  INFO 6864 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T13:02:31.797+03:00  INFO 6864 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T13:02:31.798+03:00  INFO 6864 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T13:02:31.876+03:00  INFO 6864 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T13:02:31.877+03:00  INFO 6864 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2355 ms
+2025-04-20T13:02:32.147+03:00  INFO 6864 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T13:02:32.247+03:00  INFO 6864 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T13:02:32.306+03:00  INFO 6864 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T13:02:32.716+03:00  INFO 6864 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T13:02:32.759+03:00  INFO 6864 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T13:02:33.855+03:00  INFO 6864 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30fa8a6b
+2025-04-20T13:02:33.858+03:00  INFO 6864 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T13:02:34.370+03:00  INFO 6864 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-20T13:02:35.796+03:00  INFO 6864 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T13:02:36.168+03:00  INFO 6864 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T13:02:36.720+03:00  INFO 6864 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T13:02:37.826+03:00  WARN 6864 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T13:02:38.811+03:00  INFO 6864 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T13:02:38.822+03:00  INFO 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.11 seconds (process running for 11.464)
+2025-04-20T13:02:54.549+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T13:02:54.550+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T13:02:54.552+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T13:02:54.701+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.createItemsBulk(..)
+2025-04-20T13:02:54.745+03:00  WARN 6864 --- [clothingstore] [http-nio-8080-exec-1] c.c.service.ClothingItemService          : Item validation failed: [ConstraintViolationImpl{interpolatedMessage='Название товара не может быть пустым', propertyPath=name, rootBeanClass=class com.clothingstore.model.ClothingItem, messageTemplate='Название товара не может быть пустым'}, ConstraintViolationImpl{interpolatedMessage='Название должно содержать от 2 до 100 символов', propertyPath=name, rootBeanClass=class com.clothingstore.model.ClothingItem, messageTemplate='Название должно содержать от 2 до 100 символов'}]
+2025-04-20T13:02:55.293+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] c.c.service.ClothingItemService          : Saved 1/2 items (1 failed validation)
+2025-04-20T13:02:55.296+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] c.clothingstore.logging.LoggingAspect    : Метод createItemsBulk завершился успешно. Результат: <201 CREATED Created,[com.clothingstore.model.ClothingItem@548519b0],[]>
+2025-04-20T13:04:40.258+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-5] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.deleteItem(..)
+2025-04-20T13:04:42.408+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-5] c.c.service.ClothingItemService          : Fetching 'item_10' from database and storing in cache...
+2025-04-20T13:04:42.664+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-5] c.clothingstore.logging.LoggingAspect    : Метод deleteItem завершился успешно. Результат: <204 NO_CONTENT No Content,[]>
+2025-04-20T13:05:43.432+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.createItemsBulk(..)
+2025-04-20T13:05:45.502+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-8] c.c.service.ClothingItemService          : Saved 2/2 items (0 failed validation)
+2025-04-20T13:05:45.503+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Метод createItemsBulk завершился успешно. Результат: <201 CREATED Created,[com.clothingstore.model.ClothingItem@12ecc436, com.clothingstore.model.ClothingItem@1809ef96],[]>
+2025-04-20T13:06:20.481+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.deleteItem(..)
+2025-04-20T13:06:20.485+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-9] c.c.service.ClothingItemService          : Fetching 'item_11' from database and storing in cache...
+2025-04-20T13:06:20.490+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Метод deleteItem завершился успешно. Результат: <204 NO_CONTENT No Content,[]>
+2025-04-20T13:06:26.472+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-10] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.deleteItem(..)
+2025-04-20T13:06:26.475+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-10] c.c.service.ClothingItemService          : Fetching 'item_12' from database and storing in cache...
+2025-04-20T13:06:26.480+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-10] c.clothingstore.logging.LoggingAspect    : Метод deleteItem завершился успешно. Результат: <204 NO_CONTENT No Content,[]>
+2025-04-20T13:07:02.801+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T13:07:02.809+03:00  INFO 6864 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T13:07:02.815+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T13:07:02.817+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T13:07:02.821+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T13:16:18.832+03:00  INFO 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 13664 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T13:16:18.835+03:00 DEBUG 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T13:16:18.836+03:00  INFO 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T13:16:19.715+03:00  INFO 13664 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T13:16:19.784+03:00  INFO 13664 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2025-04-20T13:16:21.483+03:00  INFO 13664 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T13:16:21.501+03:00  INFO 13664 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T13:16:21.502+03:00  INFO 13664 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T13:16:21.585+03:00  INFO 13664 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T13:16:21.585+03:00  INFO 13664 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2644 ms
+2025-04-20T13:16:21.856+03:00  INFO 13664 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T13:16:21.949+03:00  INFO 13664 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T13:16:21.998+03:00  INFO 13664 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T13:16:22.415+03:00  INFO 13664 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T13:16:22.458+03:00  INFO 13664 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T13:16:25.072+03:00  INFO 13664 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2beee3e8
+2025-04-20T13:16:25.075+03:00  INFO 13664 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T13:16:25.461+03:00  INFO 13664 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-20T13:16:26.941+03:00  INFO 13664 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T13:16:27.406+03:00  INFO 13664 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T13:16:27.942+03:00  INFO 13664 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T13:16:28.995+03:00  WARN 13664 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T13:16:29.960+03:00  INFO 13664 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T13:16:29.969+03:00  INFO 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.854 seconds (process running for 12.909)
+2025-04-20T13:17:56.436+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T13:17:56.436+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T13:17:56.437+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T13:17:57.935+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 638 ms
+2025-04-20T13:19:57.614+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..)
+2025-04-20T13:19:57.633+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Метод getLogsByDate завершился успешно. Результат: <200 OK OK,2025-04-20T12:15:22.835+03:00  INFO 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 14464 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T12:15:22.841+03:00 DEBUG 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T12:15:22.842+03:00  INFO 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T12:15:23.714+03:00  INFO 14464 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T12:15:23.788+03:00  INFO 14464 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2025-04-20T12:15:25.095+03:00  INFO 14464 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T12:15:25.113+03:00  INFO 14464 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T12:15:25.114+03:00  INFO 14464 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T12:15:25.192+03:00  INFO 14464 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T12:15:25.193+03:00  INFO 14464 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2253 ms
+2025-04-20T12:15:25.483+03:00  INFO 14464 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T12:15:25.569+03:00  INFO 14464 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T12:15:25.619+03:00  INFO 14464 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T12:15:26.047+03:00  INFO 14464 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T12:15:26.087+03:00  INFO 14464 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T12:15:28.945+03:00  INFO 14464 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47be41c6
+2025-04-20T12:15:28.948+03:00  INFO 14464 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T12:15:29.411+03:00  INFO 14464 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T12:15:30.895+03:00  INFO 14464 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T12:15:31.546+03:00  INFO 14464 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:15:32.264+03:00  INFO 14464 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T12:15:33.564+03:00  WARN 14464 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T12:15:34.884+03:00  INFO 14464 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T12:15:34.893+03:00  INFO 14464 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 12.974 seconds (process running for 14.183)
+2025-04-20T12:16:47.479+03:00  INFO 14464 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T12:16:47.481+03:00  INFO 14464 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T12:16:47.483+03:00  INFO 14464 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T12:17:28.992+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T12:17:29.002+03:00  INFO 14464 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T12:17:29.007+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:17:29.011+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T12:17:29.015+03:00  INFO 14464 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T12:23:21.514+03:00  INFO 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 9484 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T12:23:21.516+03:00 DEBUG 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T12:23:21.517+03:00  INFO 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T12:23:22.295+03:00  INFO 9484 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T12:23:22.360+03:00  INFO 9484 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-04-20T12:23:23.655+03:00  INFO 9484 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T12:23:23.673+03:00  INFO 9484 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T12:23:23.675+03:00  INFO 9484 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T12:23:23.752+03:00  INFO 9484 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T12:23:23.752+03:00  INFO 9484 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2153 ms
+2025-04-20T12:23:24.007+03:00  INFO 9484 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T12:23:24.096+03:00  INFO 9484 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T12:23:24.150+03:00  INFO 9484 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T12:23:24.564+03:00  INFO 9484 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T12:23:24.612+03:00  INFO 9484 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T12:23:26.954+03:00  INFO 9484 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42d174ad
+2025-04-20T12:23:26.956+03:00  INFO 9484 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T12:23:27.102+03:00  INFO 9484 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T12:23:28.534+03:00  INFO 9484 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T12:23:28.733+03:00  INFO 9484 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:23:29.217+03:00  INFO 9484 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T12:23:30.190+03:00  WARN 9484 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T12:23:31.041+03:00  INFO 9484 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T12:23:31.050+03:00  INFO 9484 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.169 seconds (process running for 11.19)
+2025-04-20T12:23:39.253+03:00  INFO 9484 --- [clothingstore] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T12:23:39.253+03:00  INFO 9484 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T12:23:39.255+03:00  INFO 9484 --- [clothingstore] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T12:27:12.859+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T12:27:12.868+03:00  INFO 9484 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T12:27:12.873+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:27:12.876+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T12:27:12.882+03:00  INFO 9484 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T12:32:13.075+03:00  INFO 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 2020 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T12:32:13.078+03:00 DEBUG 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T12:32:13.080+03:00  INFO 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T12:32:13.865+03:00  INFO 2020 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T12:32:13.930+03:00  INFO 2020 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-04-20T12:32:15.089+03:00  INFO 2020 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T12:32:15.105+03:00  INFO 2020 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T12:32:15.107+03:00  INFO 2020 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T12:32:15.184+03:00  INFO 2020 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T12:32:15.184+03:00  INFO 2020 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2015 ms
+2025-04-20T12:32:15.431+03:00  INFO 2020 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T12:32:15.497+03:00  INFO 2020 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T12:32:15.538+03:00  INFO 2020 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T12:32:15.914+03:00  INFO 2020 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T12:32:15.959+03:00  INFO 2020 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T12:32:16.187+03:00  INFO 2020 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ec0229c
+2025-04-20T12:32:16.190+03:00  INFO 2020 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T12:32:16.291+03:00  INFO 2020 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T12:32:17.744+03:00  INFO 2020 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T12:32:17.948+03:00  INFO 2020 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:32:18.523+03:00  INFO 2020 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T12:32:19.628+03:00  WARN 2020 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T12:32:20.595+03:00  INFO 2020 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T12:32:20.604+03:00  INFO 2020 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 8.161 seconds (process running for 9.102)
+2025-04-20T12:33:07.610+03:00  INFO 2020 --- [clothingstore] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T12:33:07.611+03:00  INFO 2020 --- [clothingstore] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T12:33:07.613+03:00  INFO 2020 --- [clothingstore] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-20T12:40:07.397+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T12:40:07.406+03:00  INFO 2020 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T12:40:07.411+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T12:40:07.413+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T12:40:07.416+03:00  INFO 2020 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T13:02:29.406+03:00  INFO 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 6864 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T13:02:29.409+03:00 DEBUG 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T13:02:29.410+03:00  INFO 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T13:02:30.349+03:00  INFO 6864 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T13:02:30.423+03:00  INFO 6864 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2025-04-20T13:02:31.770+03:00  INFO 6864 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T13:02:31.797+03:00  INFO 6864 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T13:02:31.798+03:00  INFO 6864 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T13:02:31.876+03:00  INFO 6864 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T13:02:31.877+03:00  INFO 6864 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2355 ms
+2025-04-20T13:02:32.147+03:00  INFO 6864 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T13:02:32.247+03:00  INFO 6864 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T13:02:32.306+03:00  INFO 6864 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T13:02:32.716+03:00  INFO 6864 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T13:02:32.759+03:00  INFO 6864 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T13:02:33.855+03:00  INFO 6864 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30fa8a6b
+2025-04-20T13:02:33.858+03:00  INFO 6864 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T13:02:34.370+03:00  INFO 6864 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T13:02:35.796+03:00  INFO 6864 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T13:02:36.168+03:00  INFO 6864 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T13:02:36.720+03:00  INFO 6864 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T13:02:37.826+03:00  WARN 6864 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T13:02:38.811+03:00  INFO 6864 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T13:02:38.822+03:00  INFO 6864 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 10.11 seconds (process running for 11.464)
+2025-04-20T13:02:54.549+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T13:02:54.550+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T13:02:54.552+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T13:02:54.701+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.createItemsBulk(..)
+2025-04-20T13:02:54.745+03:00  WARN 6864 --- [clothingstore] [http-nio-8080-exec-1] c.c.service.ClothingItemService          : Item validation failed: [ConstraintViolationImpl{interpolatedMessage='Название товара не может быть пустым', propertyPath=name, rootBeanClass=class com.clothingstore.model.ClothingItem, messageTemplate='Название товара не может быть пустым'}, ConstraintViolationImpl{interpolatedMessage='Название должно содержать от 2 до 100 символов', propertyPath=name, rootBeanClass=class com.clothingstore.model.ClothingItem, messageTemplate='Название должно содержать от 2 до 100 символов'}]
+2025-04-20T13:02:55.293+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] c.c.service.ClothingItemService          : Saved 1/2 items (1 failed validation)
+2025-04-20T13:02:55.296+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-1] c.clothingstore.logging.LoggingAspect    : Метод createItemsBulk завершился успешно. Результат: <201 CREATED Created,[com.clothingstore.model.ClothingItem@548519b0],[]>
+2025-04-20T13:04:40.258+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-5] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.deleteItem(..)
+2025-04-20T13:04:42.408+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-5] c.c.service.ClothingItemService          : Fetching 'item_10' from database and storing in cache...
+2025-04-20T13:04:42.664+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-5] c.clothingstore.logging.LoggingAspect    : Метод deleteItem завершился успешно. Результат: <204 NO_CONTENT No Content,[]>
+2025-04-20T13:05:43.432+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.createItemsBulk(..)
+2025-04-20T13:05:45.502+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-8] c.c.service.ClothingItemService          : Saved 2/2 items (0 failed validation)
+2025-04-20T13:05:45.503+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-8] c.clothingstore.logging.LoggingAspect    : Метод createItemsBulk завершился успешно. Результат: <201 CREATED Created,[com.clothingstore.model.ClothingItem@12ecc436, com.clothingstore.model.ClothingItem@1809ef96],[]>
+2025-04-20T13:06:20.481+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.deleteItem(..)
+2025-04-20T13:06:20.485+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-9] c.c.service.ClothingItemService          : Fetching 'item_11' from database and storing in cache...
+2025-04-20T13:06:20.490+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Метод deleteItem завершился успешно. Результат: <204 NO_CONTENT No Content,[]>
+2025-04-20T13:06:26.472+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-10] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.deleteItem(..)
+2025-04-20T13:06:26.475+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-10] c.c.service.ClothingItemService          : Fetching 'item_12' from database and storing in cache...
+2025-04-20T13:06:26.480+03:00  INFO 6864 --- [clothingstore] [http-nio-8080-exec-10] c.clothingstore.logging.LoggingAspect    : Метод deleteItem завершился успешно. Результат: <204 NO_CONTENT No Content,[]>
+2025-04-20T13:07:02.801+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T13:07:02.809+03:00  INFO 6864 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T13:07:02.815+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T13:07:02.817+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T13:07:02.821+03:00  INFO 6864 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T13:16:18.832+03:00  INFO 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Starting ClothingstoreApplication using Java 23.0.2 with PID 13664 (C:\java.pr\clothingstore\target\classes started by kamin in C:\java.pr\clothingstore)
+2025-04-20T13:16:18.835+03:00 DEBUG 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-20T13:16:18.836+03:00  INFO 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T13:16:19.715+03:00  INFO 13664 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20T13:16:19.784+03:00  INFO 13664 --- [clothingstore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2025-04-20T13:16:21.483+03:00  INFO 13664 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-20T13:16:21.501+03:00  INFO 13664 --- [clothingstore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-20T13:16:21.502+03:00  INFO 13664 --- [clothingstore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T13:16:21.585+03:00  INFO 13664 --- [clothingstore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-20T13:16:21.585+03:00  INFO 13664 --- [clothingstore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2644 ms
+2025-04-20T13:16:21.856+03:00  INFO 13664 --- [clothingstore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20T13:16:21.949+03:00  INFO 13664 --- [clothingstore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-20T13:16:21.998+03:00  INFO 13664 --- [clothingstore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-20T13:16:22.415+03:00  INFO 13664 --- [clothingstore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20T13:16:22.458+03:00  INFO 13664 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-20T13:16:25.072+03:00  INFO 13664 --- [clothingstore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2beee3e8
+2025-04-20T13:16:25.075+03:00  INFO 13664 --- [clothingstore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-20T13:16:25.461+03:00  INFO 13664 --- [clothingstore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-20T13:16:26.941+03:00  INFO 13664 --- [clothingstore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20T13:16:27.406+03:00  INFO 13664 --- [clothingstore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T13:16:27.942+03:00  INFO 13664 --- [clothingstore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-20T13:16:28.995+03:00  WARN 13664 --- [clothingstore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T13:16:29.960+03:00  INFO 13664 --- [clothingstore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-20T13:16:29.969+03:00  INFO 13664 --- [clothingstore] [main] c.c.ClothingstoreApplication             : Started ClothingstoreApplication in 11.854 seconds (process running for 12.909)
+2025-04-20T13:17:56.436+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T13:17:56.436+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T13:17:56.437+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T13:17:57.935+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 638 ms
+2025-04-20T13:19:57.614+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: LogController.getLogsByDate(..),[Content-Type:"text/plain"]>
+2025-04-20T13:20:02.464+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-2] c.clothingstore.logging.LoggingAspect    : Вызов метода: ReviewController.getReviewById(..)
+2025-04-20T13:20:04.637+03:00 ERROR 13664 --- [clothingstore] [http-nio-8080-exec-2] c.clothingstore.logging.LoggingAspect    : Ошибка в методе getReviewById: Review not found with id: 9999
+2025-04-20T13:20:43.225+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-4] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.getItemsByRating(..)
+2025-04-20T13:20:45.395+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-4] c.c.service.ClothingItemService          : Fetching 'items_by_rating_5' from database and storing in cache...
+2025-04-20T13:20:45.395+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-4] c.clothingstore.logging.LoggingAspect    : Метод getItemsByRating завершился успешно. Результат: <200 OK OK,[com.clothingstore.model.ClothingItem@da21f6b],[]>
+2025-04-20T13:20:58.454+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.getItemsByRating(..)
+2025-04-20T13:20:58.454+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-7] c.c.service.ClothingItemService          : Fetching 'items_by_rating_5' from cache...
+2025-04-20T13:20:58.454+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-7] c.clothingstore.logging.LoggingAspect    : Метод getItemsByRating завершился успешно. Результат: <200 OK OK,[com.clothingstore.model.ClothingItem@da21f6b],[]>
+2025-04-20T13:22:02.114+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.createItemsBulk(..)
+2025-04-20T13:22:02.126+03:00  WARN 13664 --- [clothingstore] [http-nio-8080-exec-9] c.c.service.ClothingItemService          : Item validation failed: [ConstraintViolationImpl{interpolatedMessage='Название должно содержать от 2 до 100 символов', propertyPath=name, rootBeanClass=class com.clothingstore.model.ClothingItem, messageTemplate='Название должно содержать от 2 до 100 символов'}, ConstraintViolationImpl{interpolatedMessage='Название товара не может быть пустым', propertyPath=name, rootBeanClass=class com.clothingstore.model.ClothingItem, messageTemplate='Название товара не может быть пустым'}]
+2025-04-20T13:22:04.526+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] c.c.service.ClothingItemService          : Saved 1/2 items (1 failed validation)
+2025-04-20T13:22:04.526+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-9] c.clothingstore.logging.LoggingAspect    : Метод createItemsBulk завершился успешно. Результат: <201 CREATED Created,[com.clothingstore.model.ClothingItem@f38e65d],[]>
+2025-04-20T13:22:44.114+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-2] c.clothingstore.logging.LoggingAspect    : Вызов метода: ClothingItemController.deleteItem(..)
+2025-04-20T13:22:44.119+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-2] c.c.service.ClothingItemService          : Fetching 'item_13' from database and storing in cache...
+2025-04-20T13:22:46.238+03:00  INFO 13664 --- [clothingstore] [http-nio-8080-exec-2] c.clothingstore.logging.LoggingAspect    : Метод deleteItem завершился успешно. Результат: <204 NO_CONTENT No Content,[]>
+2025-04-20T13:22:53.574+03:00  INFO 13664 --- [clothingstore] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T13:22:53.584+03:00  INFO 13664 --- [clothingstore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T13:22:53.590+03:00  INFO 13664 --- [clothingstore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T13:22:53.593+03:00  INFO 13664 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T13:22:53.596+03:00  INFO 13664 --- [clothingstore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
