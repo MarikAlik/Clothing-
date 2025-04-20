@@ -3,8 +3,14 @@ package com.clothingstore.service;
 import com.clothingstore.cache.CacheService;
 import com.clothingstore.model.ClothingItem;
 import com.clothingstore.repository.ClothingItemRepository;
+import jakarta.validation.ConstraintViolation;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
+import jakarta.validation.ValidatorFactory;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
+import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -26,6 +32,33 @@ public class ClothingItemService {
                                CacheService cacheService) {
         this.clothingItemRepository = clothingItemRepository;
         this.cacheService = cacheService;
+    }
+
+    public List<ClothingItem> saveBulkItems(List<ClothingItem> clothingItems) {
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        Validator validator = factory.getValidator();
+
+        List<ClothingItem> validItems = clothingItems.stream()
+                .filter(Objects::nonNull)
+                .filter(item -> {
+                    Set<ConstraintViolation<ClothingItem>> violations = validator.validate(item);
+                    if (!violations.isEmpty()) {
+                        logger.warn("Item validation failed: {}", violations);
+                        return false;
+                    }
+                    return true;
+                })
+                .toList();  // Используем Stream.toList() вместо collect(Collectors.toList())
+
+        List<ClothingItem> savedItems = clothingItemRepository.saveAll(validItems);
+        cacheService.clear();
+
+        logger.info("Saved {}/{} items ({} failed validation)",
+                savedItems.size(),
+                clothingItems.size(),
+                clothingItems.size() - savedItems.size());
+
+        return savedItems;
     }
 
     public List<ClothingItem> getAllItems() {

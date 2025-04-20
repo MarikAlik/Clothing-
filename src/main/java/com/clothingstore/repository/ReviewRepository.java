@@ -9,9 +9,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ReviewRepository extends JpaRepository<Review, Long> {
 
-    // Получить все отзывы для конкретного товара
     List<Review> findByClothingItemId(Long clothingItemId);
 
-    // Проверка: существует ли уже отзыв от пользователя на товар
     boolean existsByUsernameAndClothingItemId(String username, Long clothingItemId);
 }

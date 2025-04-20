@@ -53,7 +53,7 @@ public class LogController {
             try (Stream<String> lines = Files.lines(path)) {
                 filteredLines = lines
                         .filter(line -> line.contains(date))
-                        .toList(); // заменили collect(Collectors.toList()) на toList()
+                        .toList();
             }
 
             if (filteredLines.isEmpty()) {

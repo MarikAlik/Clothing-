@@ -109,6 +109,16 @@ public class ClothingItemController {
         return ResponseEntity.status(HttpStatus.CREATED).body(createdItem);
     }
 
+    @PostMapping("/bulk")
+    @Operation(summary = "Массовое создание товаров",
+            description = "Создает несколько товаров за один запрос")
+    @ApiResponse(responseCode = "201", description = "Товары успешно созданы")
+    public ResponseEntity<List<ClothingItem>> createItemsBulk(
+            @RequestBody List<ClothingItem> clothingItems) {
+        List<ClothingItem> savedItems = clothingItemService.saveBulkItems(clothingItems);
+        return ResponseEntity.status(HttpStatus.CREATED).body(savedItems);
+    }
+
     @PutMapping("/{id}")
     @Operation(summary = "Обновить товар", description = "Обновляет существующий товар по ID")
     @ApiResponse(responseCode = "200", description = "Товар успешно обновлен")
