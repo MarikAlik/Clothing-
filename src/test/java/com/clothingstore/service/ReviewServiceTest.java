@@ -162,4 +162,15 @@ class ReviewServiceTest {
         // Assert
         verify(reviewRepository).deleteById(1L);
     }
+
+    @Test
+    void saveReview_shouldThrowExceptionWhenClothingItemIsMissing() {
+        // Arrange
+        Review review = new Review("user", "Nice", 4);
+        review.setClothingItem(null);
+
+        // Act & Assert
+        assertThrows(ResourceNotFoundException.class, () -> reviewService.saveReview(review));
+    } // add
+
 }

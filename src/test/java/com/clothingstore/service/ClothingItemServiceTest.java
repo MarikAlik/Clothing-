@@ -190,4 +190,41 @@ class ClothingItemServiceTest {
         assertEquals(expectedItems, result);
         verify(cacheService).put(cacheKey, expectedItems);
     }
+
+    @Test
+    void getItemsByName_shouldFetchFromDbAndPutToCacheWhenNotCached() {
+        // Arrange
+        String name = "jeans";
+        String cacheKey = "items_by_name_" + name;
+        List<ClothingItem> dbItems = Collections.singletonList(validItem);
+
+        when(cacheService.contains(cacheKey)).thenReturn(false);
+        when(clothingItemRepository.findByNameContainingIgnoreCase(name)).thenReturn(dbItems);
+
+        // Act
+        List<ClothingItem> result = clothingItemService.getItemsByName(name);
+
+        // Assert
+        assertEquals(dbItems, result);
+        verify(cacheService).put(cacheKey, dbItems);
+    }
+
+    @Test
+    void getItemsByRating_shouldReturnFromCacheWhenAvailable() {
+        // Arrange
+        int rating = 5;
+        String cacheKey = "items_by_rating_" + rating;
+        List<ClothingItem> cachedItems = Collections.singletonList(validItem);
+
+        when(cacheService.contains(cacheKey)).thenReturn(true);
+        when(cacheService.get(cacheKey)).thenReturn(cachedItems);
+
+        // Act
+        List<ClothingItem> result = clothingItemService.getItemsByRating(rating);
+
+        // Assert
+        assertEquals(cachedItems, result);
+        verify(clothingItemRepository, never()).findAllByReviewRatingGreaterThanEqual(anyInt());
+    }
+
 }

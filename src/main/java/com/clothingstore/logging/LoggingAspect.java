@@ -26,16 +26,16 @@ public class LoggingAspect {
             returning = "result")
     public void logAfterReturning(JoinPoint joinPoint, Object result) {
         if (logger.isInfoEnabled()) {
-            logger.info("Метод {} завершился успешно. Результат: {}",
-                    joinPoint.getSignature().getName(), result);
+            String methodName = joinPoint.getSignature().getName();
+            logger.info("Метод {} завершился успешно. Результат: {}", methodName, result);
         }
     }
 
     @AfterThrowing(pointcut = "execution(* com.clothingstore..*(..))", throwing = "ex")
     public void logAfterThrowing(JoinPoint joinPoint, Throwable ex) {
         if (logger.isErrorEnabled()) {
-            logger.error("Ошибка в методе {}: {}",
-                    joinPoint.getSignature().getName(), ex.getMessage());
+            String methodName = joinPoint.getSignature().getName();
+            logger.error("Ошибка в методе {}: {}", methodName, ex.toString(), ex);
         }
     }
 }
