@@ -1,5 +1,6 @@
 package com.clothingstore.controller;
 
+import com.clothingstore.service.LogService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -9,18 +10,29 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/logs")
 public class LogController {
+
+    private final LogService logService;
+
+    public LogController(LogService logService) {
+        this.logService = logService;
+    }
 
     private static final String LOG_FILE = "logs/clothingstore.log";
 
@@ -72,4 +84,78 @@ public class LogController {
                     .body("Error reading log file: " + e.getMessage());
         }
     }
+
+    @Operation(summary = "Инициировать создание лог-файла")
+    @ApiResponse(responseCode = "202", description = "Процесс создания лог-файла запущен")
+    @PostMapping
+    public ResponseEntity<String> createLogFile() {
+        String taskId = logService.startLogFileCreation();
+        return ResponseEntity
+                .status(HttpStatus.ACCEPTED)
+                .body("Task started. ID: " + taskId);
+    }
+
+    @Operation(
+            summary = "Проверить статус создания лог-файла",
+            responses = {
+                @ApiResponse(responseCode = "200", description = "Статус найден"),
+                @ApiResponse(responseCode = "404", description = "ID не найден")
+            }
+    )
+    @GetMapping("/{id}/status")
+    public ResponseEntity<String> getStatus(@PathVariable String id) {
+        Optional<String> status = logService.getTaskStatus(id);
+        return status.map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.status(HttpStatus.NOT_FOUND)
+                        .body("No task found with ID: " + id));
+    }
+
+    @Operation(
+            summary = "Получить лог-файл по ID задачи",
+            responses = {
+                @ApiResponse(responseCode = "200", description = "Файл возвращён"),
+                @ApiResponse(responseCode = "404", description = "Файл не найден или ещё не готов")
+            }
+    )
+    public ResponseEntity<Resource> getLogFile(@PathVariable String id) {
+        Optional<Path> filePath = logService.getLogFile(id);
+
+        if (filePath.isEmpty() || !Files.exists(filePath.get())) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+
+        Path path = filePath.get();
+        Resource resource = new FileSystemResource(path);
+        return ResponseEntity.ok()
+                .contentType(MediaType.TEXT_PLAIN)
+                .header(HttpHeaders.CONTENT_DISPOSITION,
+                        "attachment; filename=\"" + path.getFileName() + "\"")
+                .body(resource);
+    }
+
+    @Operation(
+            summary = "Получить логи по дате из сгенерированного файла",
+            description = "Поиск логов по дате в файле, созданном по ID задачи",
+            responses = {
+                @ApiResponse(responseCode = "200", description = "Логи найдены"),
+                @ApiResponse(responseCode = "404", description = "Файл не найден")
+            }
+    )
+    @GetMapping("/{id}/logs/{date}")
+    public ResponseEntity<String> getLogsFromGeneratedFile(
+            @PathVariable String id,
+            @PathVariable String date
+    ) {
+        Optional<String> result = logService.getLogsByDateFromGeneratedFile(id, date);
+
+        if (result.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body("Log file not found for ID: " + id);
+        }
+
+        return ResponseEntity.ok()
+                .contentType(MediaType.TEXT_PLAIN)
+                .body(result.get());
+    }
+
 }
