@@ -20,25 +20,18 @@ public class LogService {
     private static final String SOURCE_LOG_FILE = "logs/clothingstore.log";
     private static final String GENERATED_LOGS_DIR = "generated_logs/";
 
-    // Константа для статуса задачи
-    private static final String STATUS_SUFFIX = "_status";
-    private static final String FILE_SUFFIX = "_file";
-
     private final CacheService cacheService;
-    private final LogService logFileService;
 
     @Autowired
-    public LogService(CacheService cacheService, LogService logFileService) {
+    public LogService(CacheService cacheService) {
         this.cacheService = cacheService;
-        this.logFileService = logFileService;
     }
 
     public String startLogFileCreation() {
         String taskId = UUID.randomUUID().toString();
-        cacheService.put(taskId + STATUS_SUFFIX, "IN_PROGRESS");
+        cacheService.put(taskId + "_status", "IN_PROGRESS");
 
-
-        logFileService.createLogFileAsync(taskId);
+        createLogFileAsync(taskId);
 
         return taskId;
     }
@@ -58,11 +51,11 @@ public class LogService {
             Path outputFile = outputDir.resolve("log_" + taskId + ".log");
             Files.copy(source, outputFile);
 
-            cacheService.put(taskId + STATUS_SUFFIX, "DONE");
-            cacheService.put(taskId + FILE_SUFFIX, outputFile.toString());
+            cacheService.put(taskId + "_status", "DONE");
+            cacheService.put(taskId + "_file", outputFile.toString());
         } catch (IOException | InterruptedException e) {
-            cacheService.put(taskId + STATUS_SUFFIX, "FAILED");
-
+            cacheService.put(taskId + "_status", "FAILED");
+            // Если InterruptedException — восстановим флаг прерывания
             if (e instanceof InterruptedException) {
                 Thread.currentThread().interrupt();
             }
@@ -73,7 +66,7 @@ public class LogService {
      * Получить статус задачи по ID.
      */
     public Optional<String> getTaskStatus(String taskId) {
-        Object status = cacheService.get(taskId + STATUS_SUFFIX);
+        Object status = cacheService.get(taskId + "_status");
         return status != null ? Optional.of(status.toString()) : Optional.empty();
     }
 
@@ -81,7 +74,7 @@ public class LogService {
      * Получить путь к файлу по ID задачи.
      */
     public Optional<Path> getLogFile(String taskId) {
-        Object filePath = cacheService.get(taskId + FILE_SUFFIX);
+        Object filePath = cacheService.get(taskId + "_file");
         if (filePath != null) {
             return Optional.of(Paths.get(filePath.toString()));
         }
@@ -109,5 +102,3 @@ public class LogService {
         }
     }
 }
-
-
