@@ -3,6 +3,7 @@ package com.clothingstore.controller;
 import com.clothingstore.exception.ResourceNotFoundException;
 import com.clothingstore.model.ClothingItem;
 import com.clothingstore.service.ClothingItemService;
+import com.clothingstore.service.RequestCounterService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -33,15 +34,19 @@ public class ClothingItemController {
     private static final String ITEM_NOT_FOUND = "Item not found with id: ";
 
     private final ClothingItemService clothingItemService;
+    private final RequestCounterService requestCounterService;
 
-    public ClothingItemController(ClothingItemService clothingItemService) {
+    public ClothingItemController(ClothingItemService clothingItemService,
+                                  RequestCounterService requestCounterService) {
         this.clothingItemService = clothingItemService;
+        this.requestCounterService = requestCounterService;
     }
 
     @GetMapping
     @Operation(summary = "Получить все товары",
             description = "Возвращает список всех товаров одежды")
     public ResponseEntity<List<ClothingItem>> getAllItems() {
+        requestCounterService.increment();  
         List<ClothingItem> items = clothingItemService.getAllItems();
         return ResponseEntity.ok(items);
     }
@@ -139,9 +144,9 @@ public class ClothingItemController {
     @Operation(summary = "Удалить товар", description = "Удаляет товар по заданному ID")
     @ApiResponse(responseCode = "204", description = "Товар успешно удален")
     @ApiResponse(responseCode = "404", description = "Товар не найден")
+
     public ResponseEntity<Void> deleteItem(
             @Parameter(description = "ID товара") @PathVariable Long id) {
-
         clothingItemService.getItemById(id)
                 .orElseThrow(() -> new ResourceNotFoundException(ITEM_NOT_FOUND + id));
 

@@ -42,6 +42,9 @@ public class ReviewService {
     }
 
     public void deleteReview(Long id) {
+        if (!reviewRepository.existsById(id)) {
+            throw new ResourceNotFoundException("Review not found with id: " + id);
+        }
         reviewRepository.deleteById(id);
     }
 }

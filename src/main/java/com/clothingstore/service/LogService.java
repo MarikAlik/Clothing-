@@ -7,9 +7,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Optional;
-import java.util.UUID;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.stereotype.Service;
@@ -19,30 +20,32 @@ import org.springframework.stereotype.Service;
 public class LogService {
     private static final String SOURCE_LOG_FILE = "logs/clothingstore.log";
     private static final String GENERATED_LOGS_DIR = "generated_logs/";
+    private final AtomicLong idGenerator = new AtomicLong(1);
 
     private final CacheService cacheService;
+    private final ApplicationContext applicationContext;
 
     @Autowired
-    public LogService(CacheService cacheService) {
+    public LogService(CacheService cacheService, ApplicationContext applicationContext) {
         this.cacheService = cacheService;
+        this.applicationContext = applicationContext;
     }
 
     public String startLogFileCreation() {
-        String taskId = UUID.randomUUID().toString();
+        String taskId = String.valueOf(idGenerator.getAndIncrement());
         cacheService.put(taskId + "_status", "IN_PROGRESS");
 
-        createLogFileAsync(taskId);
+        LogService proxy = applicationContext.getBean(LogService.class);
+        proxy.createLogFileAsync(taskId);
 
         return taskId;
     }
 
-    /**
-     * Асинхронно создает копию лог-файла.
-     */
     @Async
     public void createLogFileAsync(String taskId) {
         try {
-            Thread.sleep(5000); // 5 секунд
+            cacheService.put(taskId + "_status", "PROCESSING");
+            Thread.sleep(5000);
 
             Path source = Paths.get(SOURCE_LOG_FILE);
             Path outputDir = Paths.get(GENERATED_LOGS_DIR);
@@ -53,26 +56,20 @@ public class LogService {
 
             cacheService.put(taskId + "_status", "DONE");
             cacheService.put(taskId + "_file", outputFile.toString());
+
         } catch (IOException | InterruptedException e) {
             cacheService.put(taskId + "_status", "FAILED");
-            // Если InterruptedException — восстановим флаг прерывания
             if (e instanceof InterruptedException) {
                 Thread.currentThread().interrupt();
             }
         }
     }
 
-    /**
-     * Получить статус задачи по ID.
-     */
     public Optional<String> getTaskStatus(String taskId) {
         Object status = cacheService.get(taskId + "_status");
         return status != null ? Optional.of(status.toString()) : Optional.empty();
     }
 
-    /**
-     * Получить путь к файлу по ID задачи.
-     */
     public Optional<Path> getLogFile(String taskId) {
         Object filePath = cacheService.get(taskId + "_file");
         if (filePath != null) {
@@ -102,3 +99,4 @@ public class LogService {
         }
     }
 }
+

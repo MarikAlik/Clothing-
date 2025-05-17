@@ -17,7 +17,6 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import java.util.List;
 
-
 @Entity
 @Table(name = "product")
 public class ClothingItem {

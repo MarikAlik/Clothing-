@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicInteger;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -33,6 +34,8 @@ public class ClothingItemService {
         this.clothingItemRepository = clothingItemRepository;
         this.cacheService = cacheService;
     }
+    
+
 
     public List<ClothingItem> saveBulkItems(List<ClothingItem> clothingItems) {
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
@@ -48,7 +51,7 @@ public class ClothingItemService {
                     }
                     return true;
                 })
-                .toList();  // Используем Stream.toList() вместо collect(Collectors.toList())
+                .toList();
 
         List<ClothingItem> savedItems = clothingItemRepository.saveAll(validItems);
         cacheService.clear();

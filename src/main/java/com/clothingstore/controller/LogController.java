@@ -117,6 +117,7 @@ public class LogController {
                 @ApiResponse(responseCode = "404", description = "Файл не найден или ещё не готов")
             }
     )
+    @GetMapping("/{id}/download")
     public ResponseEntity<Resource> getLogFile(@PathVariable String id) {
         Optional<Path> filePath = logService.getLogFile(id);
 
